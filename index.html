@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <h1>APOD</h1>
-              <nav>
-                 <ul>
+    <header id="header">
+            <a id="logo" href=""><h1>APOD</h1></a>
+              <nav id="nav">
+                  <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                      <span id="hamburguer"></span>
+                  </button>
+                 <ul id="menu" role='menu'>
                      <li><a href="#">Home</a></li>
                      <li><a href="#">Sobre</a></li>
                      <li><a href="#">Help</a></li>
                  </ul>
-             </nav>   
-        </div>
+             </nav>
      </header>
 
     <script src="script.js"></script>
