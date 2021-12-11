@@ -230,6 +230,11 @@ main h1, p{
         top: -7px;
     }
 
+    .texto{
+        width: 90%;
+        height: 90%;
+    }
+
     #imagem{
     width: 95%;
     height: 95%;
