@@ -167,14 +167,14 @@ main h1, p{
 footer{
     width: 100%;
     height: 30px;
-    background: #efefef;
+    background: #efefef3f;
     grid-row: 3/4;
 }
 
 footer p{
     margin-top: 2px;
     padding: 0;
-    color: rgb(145, 121, 97);
+    color: rgb(255, 255, 255);
     font-weight: bold;
 }
 
