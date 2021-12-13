@@ -120,6 +120,8 @@ main h1, p{
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: contain;
+    border-radius: 5px;
+    opacity: calc(70%);
 }
 
 #date{
